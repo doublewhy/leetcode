@@ -31,5 +31,5 @@ class Solution:
         else:
             powerset = self.subsets(nums[:-1])
             for i in range(len(powerset)):
-                powerset.append(powerset[i] + [nums[-1]])
+                powerset.append(powerset[i] + nums[-1:])
             return powerset
