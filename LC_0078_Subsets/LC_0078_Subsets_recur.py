@@ -33,3 +33,5 @@ class Solution:
             for i in range(len(powerset)):
                 powerset.append(powerset[i] + nums[-1:])
             return powerset
+            # Using list comprehension instead for loop
+            # return powerset + [subset + nums[-1:] for subset in powerset]
