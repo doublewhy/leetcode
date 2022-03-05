@@ -1,7 +1,7 @@
 # Leetcode 78 Subsets
 - Can be solved using following approaches:
 	- Iteratively (done)
-	- Recursively
+	- Recursively (done)
 	- DFS
 	- BFS
 	- Backtracking
