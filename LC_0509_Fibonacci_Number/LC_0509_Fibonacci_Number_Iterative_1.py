@@ -19,7 +19,8 @@ class Solution:
 
         0 <= n <= 30
 
-        Time O(n), Space O(n)
+        Time O(n)
+        Space O(n)
         '''
         fib_nums = {0: 0, 1: 1}
 
