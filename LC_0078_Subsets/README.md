@@ -1,9 +1,9 @@
 # Leetcode 78 Subsets
 - Can be solved using following approaches:
-	- Iteratively (done)
-	- Recursively (done)
-	- DFS
-	- BFS
-	- Backtracking
-	- Bitmasking
-	- Dynamic Programming
+	- [X] Iteration
+	- [X] Recurtion
+	- [] DFS
+	- [] BFS
+	- [] Backtracking
+	- [] Bitmasking
+	- [] Dynamic Programming
