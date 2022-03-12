@@ -25,12 +25,10 @@ class Solution:
         if n < 2:
             return n
 
-        current = None
         prev1 = 1
         prev2 = 0
 
         for _ in range(2, n + 1):
-            current = prev1 + prev2
-            prev1, prev2 = current, prev1
+            prev1, prev2 = prev1 + prev2, prev1
 
-        return current
+        return prev1
